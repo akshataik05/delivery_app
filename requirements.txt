@@ -3,4 +3,4 @@ joblib
 scikit-learn
 numpy
 xgboost
-gunicorn
+pandas
