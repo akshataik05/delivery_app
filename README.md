@@ -1,4 +1,4 @@
-Delivery Time Estimation using Machine Learning (DoorDash ETA)
+**Delivery Time Estimation using Machine Learning (DoorDash ETA)**
 
 🧠 Predicting real-world delivery time using Data Science + Machine Learning + Web Deployment
 This project estimates food delivery time (ETA) using historical logistics data from DoorDash.
@@ -6,7 +6,7 @@ It incorporates EDA, feature engineering, ML regression models, model evaluation
 
 🔗 Dataset Used: DoorDash Delivery ETA Dataset (Kaggle)
 
-🔍 Problem Statement
+#🔍 Problem Statement
 * Food delivery platforms struggle to provide accurate ETA due to:
 * Traffic, driver availability, order load
 * Store preparation time
