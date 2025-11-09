@@ -1,10 +1,12 @@
 **Delivery Time Estimation using Machine Learning (DoorDash ETA)**
 
+
 🧠 Predicting real-world delivery time using Data Science + Machine Learning + Web Deployment
 This project estimates food delivery time (ETA) using historical logistics data from DoorDash.
 It incorporates EDA, feature engineering, ML regression models, model evaluation, and a live web demo using Flask API + HTML frontend.
 
 🔗 Dataset Used: DoorDash Delivery ETA Dataset (Kaggle)
+
 
 **🔍 Problem Statement**
 * Food delivery platforms struggle to provide accurate ETA due to:
@@ -12,6 +14,7 @@ It incorporates EDA, feature engineering, ML regression models, model evaluation
 * Store preparation time
 * Delivery demand surge
 * This project predicts ETA using real signals to reduce uncertainty and improve customer experience.
+
 
 **📌 Features**
 
@@ -31,23 +34,23 @@ It incorporates EDA, feature engineering, ML regression models, model evaluation
 
 ✅ End-to-End deployment pipeline
 
+
 **🧰 Tech Stack**
 
-Component	        Tool
+Language -        Python
 
-Language	        Python
+ML Models -	        Random Forest, XGBoost
 
-ML Models	        Random Forest, XGBoost
+Data Processing -	  pandas, NumPy
 
-Data Processing	  pandas, NumPy
+Visualization -	    matplotlib, seaborn
 
-Visualization	    matplotlib, seaborn
+Model Serving -    Flask API
 
-Model Serving	    Flask API
+Frontend -	        HTML, CSS, JavaScript
 
-Frontend	        HTML, CSS, JavaScript
+Deploymen - Ready (Flask Server)
 
-Deployment Ready	✅ (Flask Server)
 
 ## 📊 Model Performance & Accuracy    
 | Metric | Score |
@@ -61,25 +64,20 @@ Deployment Ready	✅ (Flask Server)
 🚀 The model predicts delivery time with an average error of **~6 minutes**, achieving **86% accuracy**, making it reliable for real-world ETA estimation.
 
 
-**📊 Model Performance**
-Metric	Score
-MAE (Avg Error)	~ 6 – 8 minutes
-RMSE	~ 9 – 12 minutes
-R² Score	~ 0.85 (85% accuracy) ✅
-🏆 Random Forest performed best in terms of stability and prediction accuracy.
-
 **⚙️ How It Works**
 * User inputs delivery details on the web UI:
 * items, subtotal, dashers, store load, traffic proxy, etc.
 * API sends data to trained ML model
 * Model predicts ETA in minutes
 * Result is shown instantly on UI
+  
 
 **🖥️ Project UI Preview**
 
 | Preview 1 | Preview 2 |
 |----------|----------|
 | ![UI Preview 1](screenshots/ui1.png) | ![UI Preview 2](screenshots/ui2.png) |
+
 
 
 **🔥 Future Improvements**
@@ -93,6 +91,7 @@ R² Score	~ 0.85 (85% accuracy) ✅
 🔹 Deploy on Render / Vercel
 
 🔹 Convert into mobile app using React Native
+
 
 **🏆 Achievements in this Project**
 
