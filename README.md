@@ -7,11 +7,11 @@ It incorporates EDA, feature engineering, ML regression models, model evaluation
 🔗 Dataset Used: DoorDash Delivery ETA Dataset (Kaggle)
 
 🔍 Problem Statement
-Food delivery platforms struggle to provide accurate ETA due to:
-Traffic, driver availability, order load
-Store preparation time
-Delivery demand surge
-This project predicts ETA using real signals to reduce uncertainty and improve customer experience.
+* Food delivery platforms struggle to provide accurate ETA due to:
+* Traffic, driver availability, order load
+* Store preparation time
+* Delivery demand surge
+* This project predicts ETA using real signals to reduce uncertainty and improve customer experience.
 
 📌 Features
 ✅ Trained on real DoorDash delivery dataset (Kaggle)
@@ -46,6 +46,13 @@ items, subtotal, dashers, store load, traffic proxy, etc.
 API sends data to trained ML model
 Model predicts ETA in minutes
 Result is shown instantly on UI
+
+## 🖥️ Project UI Preview
+
+| Preview 1 | Preview 2 |
+|----------|----------|
+| ![UI Preview 1](screenshots/ui1.png) | ![UI Preview 2](screenshots/ui2.png) |
+
 
 🔥 Future Improvements
 🔹 Integrate Google Maps Distance API
